@@ -1,0 +1,190 @@
+/*
+Colors used
+ */
+ :root {
+   --primary-color: #693EF5;
+   --secondary-color: #AF31F4;
+   --link-color: #CB0067;
+   --link-color-visited: #FF70B9;
+   --dark-grey: #121010;
+   --white: #fff;
+   --lightgray: #f8f8ff;
+   --font-weight-h: 400;
+   --font-family-h: 'Abril Fatface', cursive;
+
+ }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: var(--font-family-h);
+  font-size: 30px;
+  font-weight: var(--font-weight-h);
+}
+h2 {
+  font-family: var(--font-family-h);
+  font-size: 24px;
+  font-weight: var(--font-weight-h);
+}
+h3 {
+  font-family: var(--font-family-h);
+  font-size: 18px;
+  font-weight: var(--font-weight-h);
+}
+
+a {
+  color: var(--link-color);
+}
+a:visited {
+  color: var(--link-color-visited);
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+a:active {
+  color: var(--primary-color);
+}
+
+button,
+.button {
+
+  border: none;
+  font-family: inherit;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  transition: 0.5s opacity;
+}
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+.button__secondary {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+.navigation-list {
+  list-style-type: none;
+}
+.navigation-list__item--active {
+  text-decoration: none;
+}
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.profile__portrait {
+  float: left;
+  width: 250px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+.page-footer {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.profile {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.about {
+  max-width: 700px;
+  margin:0 auto;
+  text-align: center;
+}
+.hobby-list {
+  list-style-type: none;
+  text-align: inherit;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.page-header__item {
+  flex: 0 1 200px;
+}
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+.page-header__item--logo {
+  width: 200px;
+}
+/* grid fallback */
+.grid__item {
+ display: inline-block;
+ width: 33%;
+}
+@supports (display: grid) {
+ .grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 20px;
+   margin: 0;
+ }
+ }
+ .grid__item {
+   background-color: var(--lightgray);
+   width: auto;
+   min-height: auto;
+   margin: 0;
+   padding: 20px;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ /*definition of a responsive design for two columns*/
+ @media all and (min-width: 500px) and (max-width: 750px){
+   .grid {
+     grid-template-columns: 1fr 1fr;
+   }
+ }
+/*definition for responsive design for one column*/
+ @media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+    }
+  }
+  /*shared code*/
+  @media all and (max-width: 750px){
+    .grid {
+      grid-gap: 10px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+    }
+/*  @keyframes color-change {
+  0% {
+    fill: #18c4ff;
+  }
+  100% {
+    fill: #f76414;
+  }
+}
+.book {
+  animation-duration: 8s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}*/
