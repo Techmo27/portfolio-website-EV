@@ -131,7 +131,7 @@ button:visited {
   margin-left: 15px;
 }
 .work {
-  margin-left: 15px;
+  margin: 15px;
 }
 .about {
   max-width: 700px;
@@ -143,6 +143,26 @@ ul.skill-list{
     margin-left: 0;
     padding-left: 0;
     list-style-type: none;
+}
+input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+          box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  background-color: #fff;
+  color: #121010;
+}
+input[type=tel] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 3px;
+  -webkit-box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+          box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  background-color: #fff;
+  color: #121010;
 }
 
 .page-header {
