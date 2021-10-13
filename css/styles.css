@@ -71,8 +71,14 @@ button:focus,
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
-.button__secondary {
+.button__secondary,
+.button__secondary:visited {
   background-color: var(--secondary-color);
+  color: var(--white);
+}
+.button__primary,
+.button__primary:visited {
+  background-color: var(--primary-color);
   color: var(--white);
 }
 .navigation-list {
