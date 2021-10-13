@@ -121,9 +121,11 @@ button:focus,
   margin:0 auto;
   text-align: center;
 }
-.hobby-list {
-  list-style-type: none;
-  text-align: inherit;
+
+ul.hobby-list{
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 .page-header {
@@ -198,18 +200,32 @@ button:focus,
         font-size: 22px;
       }
     }
-/*  @keyframes color-change {
-  0% {
-    fill: #18c4ff;
-  }
-  100% {
-    fill: #f76414;
-  }
-}
-.book {
-  animation-duration: 8s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}*/
+    @-webkit-keyframes color-change {
+      0% {
+        fill: #18c4ff;
+      }
+      100% {
+        fill: #AF31F4;
+      }
+    }
+    @keyframes color-change {
+      0% {
+        fill: #18c4ff;
+      }
+      100% {
+        fill: #AF31F4;
+      }
+    }
+
+    .book {
+      -webkit-animation-duration: 8s;
+              animation-duration: 8s;
+      -webkit-animation-name: color-change;
+              animation-name: color-change;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+              animation-direction: alternate;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+    }
