@@ -2,10 +2,9 @@
 Colors used
  */
  :root {
-   --primary-color: #5271ff;
-   --secondary-color: #cb6ceb;
-   --link-color: #5e17eb;
-   --link-color-visited: #8c52ff;
+   --primary-color: #8149eb;
+   --secondary-color: #ff6636;
+   --tertiary-color: #7b4747;
    --dark-grey: #121010;
    --white: #fff;
    --background: #f4eeee;
@@ -38,10 +37,10 @@ h3 {
 }
 
 a {
-  color: var(--link-color);
+  color: var(--secondary-color);
 }
 a:visited {
-  color: var(--link-color-visited);
+  color: var(--tertiary-color);
 }
 a:hover, a:focus {
   text-decoration: none;
@@ -80,11 +79,15 @@ button:focus,
   list-style-type: none;
 }
 .navigation-list__item--active {
-  text-decoration: none;
+  color: var(--tertiary-color);
 }
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+}
+.navigation-list li a {
+  text-decoration: none;
+  color: var(--dark-grey);
 }
 .profile__portrait {
   float: left;
@@ -179,13 +182,16 @@ ul.hobby-list{
       0% {
         fill: #18c4ff;
       }
+      50% {
+        fill: var(--primary-color);
+      }
       100% {
         fill: var(--secondary-color);
       }
     }
 
     .book {
-      animation-duration: 8s;
+      animation-duration: 4s;
       animation-name: color-change;
       animation-iteration-count: infinite;
       animation-direction: alternate;
