@@ -33,23 +33,23 @@ h3 {
 }
 
 a {
-  color: #CB0067;
+  color: #5e17eb;
 }
 a:visited {
-  color: #FF70B9;
+  color: #8c52ff;
 }
 a:hover, a:focus {
   text-decoration: none;
 }
 a:active {
-  color: #693EF5;
+  color: #5271ff;
 }
 
 button {
 
   border: none;
   font-family: inherit;
-  background-color: #693EF5;
+  background-color: #5271ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -63,7 +63,7 @@ button {
 
   border: none;
   font-family: inherit;
-  background-color: #693EF5;
+  background-color: #5271ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -82,7 +82,7 @@ button:focus,
   opacity: 0.8;
 }
 .button__secondary {
-  background-color: #AF31F4;
+  background-color: #cb6ceb;
   color: #fff;
 }
 .navigation-list {
@@ -134,7 +134,7 @@ ul.hobby-list{
   display: flex;
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #f8f8ff;
+  background-color: #f4eeee;
 }
 
 .page-header__item {
@@ -167,7 +167,7 @@ ul.hobby-list{
  }
  }
  .grid__item {
-   background-color: #f8f8ff;
+   background-color: undefined;
    width: auto;
    min-height: auto;
    margin: 0;
@@ -205,11 +205,7 @@ ul.hobby-list{
         fill: #18c4ff;
       }
       100% {
-<<<<<<< HEAD
-        fill: #AF31F4;
-=======
         fill: #cb6ceb;
->>>>>>> parent of 4427812 (Revert "update production.css")
       }
     }
     @keyframes color-change {
@@ -217,7 +213,7 @@ ul.hobby-list{
         fill: #18c4ff;
       }
       100% {
-        fill: #AF31F4;
+        fill: #cb6ceb;
       }
     }
 
