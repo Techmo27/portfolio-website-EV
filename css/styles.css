@@ -180,14 +180,17 @@ ul.hobby-list{
     }
     @keyframes color-change {
       0% {
-        fill: #18c4ff;
+        fill: #121010;
+      }
+      50% {
+        fill: var(--primary-color);
       }
       100% {
         fill: var(--secondary-color);
       }
     }
 
-    .star {
+    .snake {
       animation-duration: 4s;
       animation-name: color-change;
       animation-iteration-count: infinite;
