@@ -206,7 +206,10 @@ ul.hobby-list{
     }
     @-webkit-keyframes color-change {
       0% {
-        fill: #18c4ff;
+        fill: #121010;
+      }
+      50% {
+        fill: #8149eb;
       }
       100% {
         fill: #ff6636;
@@ -214,14 +217,17 @@ ul.hobby-list{
     }
     @keyframes color-change {
       0% {
-        fill: #18c4ff;
+        fill: #121010;
+      }
+      50% {
+        fill: #8149eb;
       }
       100% {
         fill: #ff6636;
       }
     }
 
-    .star {
+    .snake {
       -webkit-animation-duration: 4s;
               animation-duration: 4s;
       -webkit-animation-name: color-change;
