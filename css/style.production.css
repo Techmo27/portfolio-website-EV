@@ -89,7 +89,7 @@ button:focus,
   list-style-type: none;
 }
 .navigation-list__item--active {
-  color: #7b4747;
+  text-decoration: underline;
 }
 .navigation-list li {
   display: inline-block;
@@ -221,7 +221,7 @@ ul.hobby-list{
       }
     }
 
-    .book {
+    .star {
       -webkit-animation-duration: 4s;
               animation-duration: 4s;
       -webkit-animation-name: color-change;
