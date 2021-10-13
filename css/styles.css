@@ -63,6 +63,7 @@ button,
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   transition: 0.5s opacity;
 }
+
 button:hover,
 button:focus,
 .button:hover,
@@ -112,6 +113,7 @@ button:visited,
   margin: 0 auto;
 }
 .contact {
+  max-width: 500px;
   margin-left: 15px;
 }
 .work {
@@ -130,6 +132,7 @@ ul.skill-list{
 }
 input[type=email],
 input[type=tel] {
+  width: 100%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid var(--background);
@@ -139,10 +142,13 @@ input[type=tel] {
   color: var(--dark-grey);
 }
 textarea {
+  width: 100%;
   padding: 12px 20px;
   border: 1px solid var(--background);
   border-radius: 3px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   background-color: var(--white);
+  color: var(--dark-grey);
   resize: none;
 }
 
