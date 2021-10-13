@@ -1,11 +1,4 @@
 /*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 2 version
-*/
-
-/*
 Colors used
  */
 
@@ -33,29 +26,28 @@ h3 {
 }
 
 a {
-  color: #CB0067;
+  color: #5e17eb;
 }
 a:visited {
-  color: #FF70B9;
+  color: #8c52ff;
 }
 a:hover, a:focus {
   text-decoration: none;
 }
 a:active {
-  color: #693EF5;
+  color: #5271ff;
 }
 
 button {
 
   border: none;
   font-family: inherit;
-  background-color: #693EF5;
+  background-color: #5271ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s opacity;
   transition: 0.5s opacity;
 }
 
@@ -63,13 +55,12 @@ button {
 
   border: none;
   font-family: inherit;
-  background-color: #693EF5;
+  background-color: #5271ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s opacity;
   transition: 0.5s opacity;
 }
 button:hover,
@@ -82,7 +73,7 @@ button:focus,
   opacity: 0.8;
 }
 .button__secondary {
-  background-color: #AF31F4;
+  background-color: #cb6ceb;
   color: #fff;
 }
 .navigation-list {
@@ -95,6 +86,9 @@ button:focus,
   display: inline-block;
   margin-left: 15px;
 }
+.navigation-list__item {
+  color: #121010;
+}
 .profile__portrait {
   float: left;
   width: 250px;
@@ -103,13 +97,8 @@ button:focus,
 }
 .page-footer {
   clear: both;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 .profile {
@@ -129,23 +118,17 @@ ul.hobby-list{
 }
 
 .page-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #f8f8ff;
+  background-color: #f4eeee;
 }
 
 .page-header__item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 .page-header__item:last-child {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   text-align: right;
 }
 .page-header__item--logo {
@@ -158,36 +141,31 @@ ul.hobby-list{
 }
 @supports (display: grid) {
  .grid {
-   display: -ms-grid;
    display: grid;
-   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 20px;
    margin: 0;
  }
  }
  .grid__item {
-   background-color: #f8f8ff;
+   background-color: undefined;
    width: auto;
    min-height: auto;
    margin: 0;
    padding: 20px;
  }
  * {
-   -webkit-box-sizing: border-box;
-           box-sizing: border-box;
+   box-sizing: border-box;
  }
  /*definition of a responsive design for two columns*/
  @media all and (min-width: 500px) and (max-width: 750px){
    .grid {
-     -ms-grid-columns: 1fr 20px 1fr;
      grid-template-columns: 1fr 1fr;
    }
  }
 /*definition for responsive design for one column*/
  @media all and (max-width: 500px) {
   .grid {
-    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     }
   }
@@ -200,32 +178,19 @@ ul.hobby-list{
         font-size: 22px;
       }
     }
-    @-webkit-keyframes color-change {
-      0% {
-        fill: #18c4ff;
-      }
-      100% {
-        fill: #AF31F4;
-      }
-    }
     @keyframes color-change {
       0% {
         fill: #18c4ff;
       }
       100% {
-        fill: #AF31F4;
+        fill: #cb6ceb;
       }
     }
 
     .book {
-      -webkit-animation-duration: 8s;
-              animation-duration: 8s;
-      -webkit-animation-name: color-change;
-              animation-name: color-change;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-direction: alternate;
-              animation-direction: alternate;
-      -webkit-animation-timing-function: linear;
-              animation-timing-function: linear;
+      animation-duration: 8s;
+      animation-name: color-change;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear;
     }
