@@ -89,12 +89,18 @@ button:focus,
   list-style-type: none;
 }
 .navigation-list__item--active {
-  text-decoration: none;
+  color: #cb6ceb;
 }
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+}
+.navigation-list__item {
+  text-decoration: none;
   color: #121010;
+  &visited {
+    color: #121010;
+    }
 }
 .profile__portrait {
   float: left;
