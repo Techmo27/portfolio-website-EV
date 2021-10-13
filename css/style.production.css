@@ -76,24 +76,20 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-  /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
-  /* reduces the opacity of the button to 80% */
   opacity: 0.8;
+}
+button:visited {
+  color: #fff;
+}
+.button:visited {
+  color: #fff;
 }
 .button__secondary {
   background-color: #ff6636;
   color: #fff;
 }
-.button__secondary:visited {
-  background-color: #ff6636;
-  color: #fff;
-}
 .button__primary {
-  background-color: #8149eb;
-  color: #fff;
-}
-.button__primary:visited {
   background-color: #8149eb;
   color: #fff;
 }
