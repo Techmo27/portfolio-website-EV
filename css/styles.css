@@ -2,13 +2,13 @@
 Colors used
  */
  :root {
-   --primary-color: #693EF5;
-   --secondary-color: #AF31F4;
-   --link-color: #CB0067;
-   --link-color-visited: #FF70B9;
+   --primary-color: #5271ff;
+   --secondary-color: #cb6ceb;
+   --link-color: #5e17eb;
+   --link-color-visited: #8c52ff;
    --dark-grey: #121010;
    --white: #fff;
-   --lightgray: #f8f8ff;
+   --background: #f4eeee;
    --font-weight-h: 400;
    --font-family-h: 'Abril Fatface', cursive;
 
@@ -86,6 +86,9 @@ button:focus,
   display: inline-block;
   margin-left: 15px;
 }
+.navigation-list__item {
+  color: var(--darkgray);
+}
 .profile__portrait {
   float: left;
   width: 250px;
@@ -118,7 +121,7 @@ ul.hobby-list{
   display: flex;
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid var(--lightgray);
+  background-color: var(--background);
 }
 
 .page-header__item {
