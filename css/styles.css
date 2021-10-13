@@ -79,7 +79,7 @@ button:focus,
   list-style-type: none;
 }
 .navigation-list__item--active {
-  text-decoration: underline;
+  text-decoration: underline important!;
 }
 .navigation-list li {
   display: inline-block;
