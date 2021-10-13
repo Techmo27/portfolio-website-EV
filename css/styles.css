@@ -80,18 +80,14 @@ button:focus,
   list-style-type: none;
 }
 .navigation-list__item--active {
-  color: var(--secondary-color);
+  text-decoration: none;
 }
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
 }
 .navigation-list__item {
-  text-decoration: none;
   color: var(--dark-grey);
-  &visited {
-    color: var(--dark-grey);
-    }
 }
 .profile__portrait {
   float: left;
