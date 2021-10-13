@@ -205,7 +205,11 @@ ul.hobby-list{
         fill: #18c4ff;
       }
       100% {
+<<<<<<< HEAD
         fill: #AF31F4;
+=======
+        fill: #cb6ceb;
+>>>>>>> parent of 4427812 (Revert "update production.css")
       }
     }
     @keyframes color-change {
