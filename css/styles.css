@@ -87,7 +87,7 @@ button:focus,
   margin-left: 15px;
 }
 .navigation-list__item {
-  color: var(--dark-grey);
+  color: var(--darkgray);
 }
 .profile__portrait {
   float: left;
