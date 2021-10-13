@@ -94,6 +94,8 @@ button:focus,
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+}
+.navigation-list__item {
   color: #121010;
 }
 .profile__portrait {
