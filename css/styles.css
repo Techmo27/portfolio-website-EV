@@ -182,9 +182,6 @@ ul.hobby-list{
       0% {
         fill: #18c4ff;
       }
-      50% {
-        fill: var(--primary-color);
-      }
       100% {
         fill: var(--secondary-color);
       }
