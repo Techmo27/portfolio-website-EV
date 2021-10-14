@@ -105,6 +105,7 @@ button:visited,
 }
 
 .navigation-list li a {
+  background-color: inherit;
   color: var(--dark-grey);
 }
 
@@ -183,6 +184,7 @@ textarea {
   width: 100%;
   padding: 20px;
   background-color: var(--background);
+  color: inherit;
 }
 
 .page-header__item {
@@ -215,6 +217,7 @@ textarea {
 
 .grid__item {
   background-color: var(--boxcolor);
+  color: inherit;
   width: auto;
   min-height: auto;
   margin: 0;
