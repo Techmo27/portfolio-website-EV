@@ -111,7 +111,7 @@ button:visited,
 
 .profile__portrait {
   float: left;
-  width: 30%;
+  width: 250px;
   margin-right: 40px;
   border-radius: 50%;
 }
@@ -129,12 +129,12 @@ button:visited,
 }
 
 .profile {
-  max-width: 70%;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 .contact {
-  max-width: 50%;
+  max-width: 500px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -144,7 +144,7 @@ button:visited,
 }
 
 .about {
-  max-width: 70%;
+  max-width: 700px;
   margin: 0 auto;
   text-align: center;
 }
