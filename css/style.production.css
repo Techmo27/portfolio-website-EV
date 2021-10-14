@@ -159,6 +159,7 @@ ul.skill-list{
     margin-left: 0;
     padding-left: 0;
     list-style-type: none;
+    font-weight: bold;
 }
 input[type=email] {
   width: 100%;
@@ -166,9 +167,9 @@ input[type=email] {
   margin: 10px 0;
   border: 1px solid #f4eeee;
   border-radius: 3px;
-  -webkit-box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-          box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  background-color: #fff;
+  -webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+          box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+  background-color: #f7f3ff;
   color: #121010;
 }
 input[type=tel] {
@@ -177,19 +178,20 @@ input[type=tel] {
   margin: 10px 0;
   border: 1px solid #f4eeee;
   border-radius: 3px;
-  -webkit-box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-          box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  background-color: #fff;
+  -webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+          box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+  background-color: #f7f3ff;
   color: #121010;
 }
 textarea {
   width: 100%;
+  margin-bottom: 15px;
   padding: 12px 20px;
   border: 1px solid #f4eeee;
   border-radius: 3px;
-  -webkit-box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-          box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-  background-color: #fff;
+  -webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+          box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+  background-color: #f7f3ff;
   color: #121010;
   resize: none;
 }
@@ -233,7 +235,7 @@ textarea {
  }
  }
  .grid__item {
-   background-color: #f4eeee;
+   background-color: #f7f3ff;
    width: auto;
    min-height: auto;
    margin: 0;
