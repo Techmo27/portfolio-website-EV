@@ -165,7 +165,7 @@ input[type=email] {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #f4eeee;
+  border: 1px solid #7b4747;
   border-radius: 3px;
   -webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
           box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
@@ -176,7 +176,7 @@ input[type=tel] {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #f4eeee;
+  border: 1px solid #7b4747;
   border-radius: 3px;
   -webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
           box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
@@ -187,7 +187,7 @@ textarea {
   width: 100%;
   margin-bottom: 15px;
   padding: 12px 20px;
-  border: 1px solid #f4eeee;
+  border: 1px solid #7b4747;
   border-radius: 3px;
   -webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
           box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
