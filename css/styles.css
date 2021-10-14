@@ -1,7 +1,4 @@
-/*
-Colors used
- */
- :root {
+:root {
    --primary-color: #8149eb;
    --secondary-color: #ff6636;
    --tertiary-color: #7b4747;
@@ -222,7 +219,7 @@ textarea {
     }
     @keyframes color-change {
       0% {
-        fill: #121010;
+        fill: var(--dark-grey);
       }
       50% {
         fill: var(--primary-color);
