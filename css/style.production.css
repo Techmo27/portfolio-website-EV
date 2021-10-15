@@ -149,8 +149,8 @@ button:visited {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -194,7 +194,7 @@ input[type=email] {
   border: 1px solid #8149eb;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
-          box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
   background-color: #f7f3ff;
   color: #121010;
 }
@@ -206,7 +206,7 @@ input[type=tel] {
   border: 1px solid #8149eb;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
-          box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
   background-color: #f7f3ff;
   color: #121010;
 }
@@ -218,7 +218,7 @@ textarea {
   border: 1px solid #8149eb;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
-          box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.06);
   background-color: #f7f3ff;
   color: #121010;
   resize: none;
@@ -236,14 +236,14 @@ textarea {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -279,7 +279,7 @@ textarea {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* definition of a responsive design for two columns */
@@ -288,17 +288,19 @@ textarea {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
-  .profile__portrait {
-  margin-left: 15px;
-}
-  .profile {
-   padding-right: 15px;
-  }
-  .about {
-  max-width: 100%;
-  margin: 15px;
-}
 
+  .profile__portrait {
+    margin-left: 15px;
+  }
+
+  .profile {
+    padding-right: 15px;
+  }
+
+  .about {
+    max-width: 100%;
+    margin: 15px;
+  }
 }
 
 /* definition for responsive design for one column */
@@ -307,20 +309,23 @@ textarea {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .profile__portrait {
-  width: 55%;
-  margin: 15px;
-  float: none;
-}
+    width: 55%;
+    margin: 15px;
+    float: none;
+  }
+
   .profile {
-  max-width: 100%;
-  margin: 15px;
-  text-align: center;
-}
-    .about {
-  max-width: 100%;
-  margin: 15px;
-}
+    max-width: 100%;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .about {
+    max-width: 100%;
+    margin: 15px;
+  }
 }
 
 /* shared code */
@@ -364,13 +369,13 @@ textarea {
 
 .snake {
   -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-name: color-change;
-          animation-name: color-change;
+  animation-name: color-change;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate;
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
 }
