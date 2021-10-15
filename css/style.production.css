@@ -288,6 +288,10 @@ textarea {
     -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
+  .profile__portrait {
+  margin-left: 15px;
+}
+
 }
 
 /* definition for responsive design for one column */
@@ -296,6 +300,16 @@ textarea {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .profile__portrait {
+  width: 50%;
+  margin: 15px;
+  float: none;
+}
+  .profile {
+  max-width: 100%;
+  margin: 15px;
+  text-align: center;
+}
 }
 
 /* shared code */
