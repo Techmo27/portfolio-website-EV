@@ -240,6 +240,10 @@ textarea {
   .profile {
    padding-right: 15px;
   }
+  .about {
+  max-width: 100%;
+  margin: 15px;
+}
 
 }
 
@@ -257,6 +261,10 @@ textarea {
   max-width: 100%;
   margin: 15px;
   text-align: center;
+}
+    .about {
+  max-width: 100%;
+  margin: 15px;
 }
 }
 
