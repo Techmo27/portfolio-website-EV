@@ -234,16 +234,6 @@ textarea {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
-  .profile__portrait {
-  width: 50%;
-  margin-right: 15px;
-  text-align: center;
-
-}
-  .profile {
-  max-width: 100%;
-  margin: 0 auto;
-}
 }
 
 /* definition for responsive design for one column */
@@ -251,16 +241,6 @@ textarea {
   .grid {
     grid-template-columns: 1fr;
   }
-  .profile__portrait {
-  width: 100%;
-  margin: 15px;
-  text-align: center;
-}
-  .profile {
-  max-width: 100%;
-  margin: 15px;
-  text-align: center;
-}
 }
 
 /* shared code */
