@@ -291,6 +291,9 @@ textarea {
   .profile__portrait {
   margin-left: 15px;
 }
+  .profile {
+   padding-right: 15px;
+  }
 
 }
 
@@ -301,7 +304,7 @@ textarea {
     grid-template-columns: 1fr;
   }
   .profile__portrait {
-  width: 50%;
+  width: 55%;
   margin: 15px;
   float: none;
 }
